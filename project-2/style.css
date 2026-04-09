@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+}
+
+span {
+    margin: 10px;
+}
+
+span:hover {
+    border-bottom: 2px solid black;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+button:hover {
+    background: orange;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    text-shadow: 2px 2px 5px gray;
+}
+
+h4::first-letter {
+    font-size: 25px;
+    color: red;
+}
+
+td {
+    padding: 15px;
+}
+
+td:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+td p {
+    color: gray;
+}
+
+tr td:first-child {
+    background: #f9f9f9;
+}
+
+tr td:last-child {
+    background: #f3f3f3;
+}
+
+::selection {
+    background: yellow;
+}
