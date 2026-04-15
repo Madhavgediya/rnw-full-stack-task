@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-container,
+td {
+    border: 1px black solid;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.cp-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+
+.menu-btn {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.search-input {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    border: 2px red solid;
+    border-style: ;
+}
